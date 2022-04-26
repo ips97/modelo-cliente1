@@ -1,0 +1,112 @@
+body{
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(143, 92, 192);
+}
+header{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 14px;
+    
+}
+#logo{
+    padding: 15px;
+    margin-top: 80px;
+    margin-left: 40px;
+    text-align: left;
+}
+#imagem-logos{
+    display: inline-block;
+}
+main{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+.menu{
+    background-color: rgba(229, 207, 236, 0.377);
+    text-align: left;
+    border-radius: 5px;
+    text-align: center;
+}
+.menu-item{
+    color: rgb(126, 5, 95);
+    font-size: 20px;    
+    display: inline-block;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 8px;
+    margin: 3px 0px;
+    
+}
+.menu-item:hover{
+    color: rgb(126, 5, 95);
+    background-color: rgba(253, 250, 252, 0.582);
+    box-shadow: 0 4px 8px 0 rgba(72, 49, 78, 0.192), 0 6px 20px 0 rgba(54, 39, 58, 0.26);
+}
+#carouselExampleIndicators{
+    padding: 25px;
+    margin-left: 400px;
+}
+
+#souEu{
+    background-color: rgba(250, 217, 246, 0.692); 
+    padding: 45px;
+    text-align: center;
+    height: 300px;   
+}
+
+.row{
+    width: 1330px;
+    margin: 0;
+    padding: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.coluna{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.texto-projeto{
+      display: none;
+}
+
+#contato{
+    text-align: center;
+    background-color: rgb(245, 178, 158);
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.contato-item{
+    
+    padding: 10px 5px;
+    margin: 5px;
+    color: black;
+    font-size: 20px;
+    
+}
+
+#insta{
+    list-style: url("imagens/instagram.png");
+    float: left;    
+    position: absolute;
+    margin-left: 500px;
+}
+#email{
+    list-style: url("imagens/open.png");
+    margin-right: 500px;
+    float: right;
+}
