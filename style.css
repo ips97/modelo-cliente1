@@ -8,6 +8,9 @@ header{
     width: 90%;
     margin: auto;
     border-radius: 14px;
+    background-image: url("imagens/Captura\ da\ Web_22-4-2022_22135_www.instagram.com.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 #logo{
